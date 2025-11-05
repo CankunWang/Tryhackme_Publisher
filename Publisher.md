@@ -24,21 +24,21 @@ Nmap done, but we didn't find enough useful information.
 
 Let's try to scan all the ports for more details as well as the services. 
 
-![](C:\Users\Administrator\AppData\Roaming\marktext\images\2025-11-04-16-22-33-image.png)
+![exploit result](./images/2025-11-04-16-22-33-image.png)
 
 We still don't find much more informations. Let's take a look at the target website.
 
-![](C:\Users\Administrator\AppData\Roaming\marktext\images\2025-11-04-16-23-49-image.png)
+![exploit result](./images/2025-11-04-16-23-49-image.png)
 
 We find something interesting here---SPIP. Some outdated version of SPIP may exist vulnerabilities for RCE, so let's try to find the version of SPIP.
 
 We fist view the page source, but there are no more information provided here.
 
-![](C:\Users\Administrator\AppData\Roaming\marktext\images\2025-11-04-16-28-26-image.png)
+![exploit result](./images/2025-11-04-16-28-26-image.png)
 
 Let's try the directory fuzzing for more possible directories. 
 
-![](C:\Users\Administrator\AppData\Roaming\marktext\images\2025-11-04-16-31-05-image.png)
+![exploit result](.\images\2025-11-04-16-31-05-image.png)
 
 We use the gobuster and a medium wordlists to find the possible hidden directories.
 
@@ -197,5 +197,6 @@ Because the apparmor can only "complain", once we restart the run_container.sh, 
 Now, we finally find the root.txt.
 
 Thanks for reading!
+
 
 
