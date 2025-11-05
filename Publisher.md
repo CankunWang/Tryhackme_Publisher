@@ -18,7 +18,7 @@ We know through a series of enumeration techniques, including directory fuzzing 
 
 We start with using nmap to scan the opening ports.
 
-![](C:\Users\Administrator\AppData\Roaming\marktext\images\2025-11-04-16-20-14-image.png)
+![](.\images\2025-11-04-16-20-14-image.png)
 
 Nmap done, but we didn't find enough useful information.
 
@@ -197,3 +197,4 @@ Because the apparmor can only "complain", once we restart the run_container.sh, 
 Now, we finally find the root.txt.
 
 Thanks for reading!
+
